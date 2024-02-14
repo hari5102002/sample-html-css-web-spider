@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: century;
+}
+
+header{
+    background-image: url("/spicy.jpg");
+    /* background-image: linear-gradient(rgba(0,0,0,0.8)rgba(0,0,0,0.8)rgba(0,0,0,0.8)),url(/spicy.jpg); */
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+}
+
+u1{
+    float: left;
+    list-style-type: none;
+    margin-top: 40px;
+    min-height: 400px;
+    margin-right: 60px;
+    front-size: 17px;
+}
+u1 li{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border:1px solid transparent;
+    transition: 0.5 ease;
+}
+u1 li a:hover{
+    background-color: rgb(3, 31, 151);
+    color:#000;
+}
+ul li.active a{
+    background-color: aliceblue;
+    color:#000;
+}
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+}
+.main{
+    max-width: 1200px;
+    margin:auto;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+
+}
+
+.title h1{
+    color: #000;
+    font-size: 60px;
+
+}
+.button{
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.btn{
+    border: 1px solid #fff;
+    padding: 5px 20px;
+    color: #fff;
+    transition: 0.5 ease;
+    font-size: 18px;
+    text-decoration-line:none;
+
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+
+}
+
+.sub-menu{
+
+    display: none;
+    top: 6%;
+    position: relative;
+
+}
+.sub-menu u1{
+    position: absolute;
+}
+.main u1 li:hover.sub-menu{
+    display: block;
+    position: absolute;
+    background-color: rgb(red, green, blue);
+    margin-top: 12px;
+    margin-left: -8px;
+}
+
+.main u1 li:hover .sub-menu u1{
+    display: block;
+    margin: 6px;
+
+}
+.main u1 li:hover .sub-menu u1 li{
+    width: 75px;
+    padding: 5px;
+    border-bottom: 1px white;
+    background: transparent;
+    transition: o.4 ease;
+    text-align: left;
+    border-radius: 0px;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
